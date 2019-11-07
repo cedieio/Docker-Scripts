@@ -1,0 +1,5 @@
+version: '3'
+services:
+  hello-world:
+    image: hello-world-docker-compose:1.0
+    build: .
