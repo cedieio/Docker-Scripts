@@ -1,0 +1,7 @@
+version: '3'
+services:
+  flask_service:
+    image: flask-docker-compose:1.0
+    build: .
+    ports:
+      - "5000:5000"
