@@ -1,0 +1,6 @@
+version: '3'
+services:
+  node-js:
+    build: ./js-post
+    ports:
+      - 8080:8080
